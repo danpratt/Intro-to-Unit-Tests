@@ -13,6 +13,8 @@
 		65EF303A1F437A9E00EEE8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EF30391F437A9E00EEE8B2 /* Assets.xcassets */; };
 		65EF303D1F437A9E00EEE8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EF303B1F437A9E00EEE8B2 /* LaunchScreen.storyboard */; };
 		65EF30531F437BF500EEE8B2 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF30521F437BF500EEE8B2 /* ViewControllerTests.swift */; };
+		65EF30561F43884E00EEE8B2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF30551F43884E00EEE8B2 /* Person.swift */; };
+		65EF30581F4388E600EEE8B2 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF30571F4388E600EEE8B2 /* PersonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		65EF30431F437A9E00EEE8B2 /* Intro to Unit TestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intro to Unit TestsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EF30491F437A9E00EEE8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65EF30521F437BF500EEE8B2 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		65EF30551F43884E00EEE8B2 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		65EF30571F4388E600EEE8B2 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		65EF30311F437A9E00EEE8B2 /* Intro to Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
+				65EF30541F43882300EEE8B2 /* Model */,
 				65EF30321F437A9E00EEE8B2 /* AppDelegate.swift */,
 				65EF30341F437A9E00EEE8B2 /* ViewController.swift */,
 				65EF30361F437A9E00EEE8B2 /* Main.storyboard */,
@@ -92,8 +97,17 @@
 			children = (
 				65EF30491F437A9E00EEE8B2 /* Info.plist */,
 				65EF30521F437BF500EEE8B2 /* ViewControllerTests.swift */,
+				65EF30571F4388E600EEE8B2 /* PersonTests.swift */,
 			);
 			path = "Intro to Unit TestsTests";
+			sourceTree = "<group>";
+		};
+		65EF30541F43882300EEE8B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65EF30551F43884E00EEE8B2 /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EF30561F43884E00EEE8B2 /* Person.swift in Sources */,
 				65EF30351F437A9E00EEE8B2 /* ViewController.swift in Sources */,
 				65EF30331F437A9E00EEE8B2 /* AppDelegate.swift in Sources */,
 			);
@@ -211,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EF30581F4388E600EEE8B2 /* PersonTests.swift in Sources */,
 				65EF30531F437BF500EEE8B2 /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

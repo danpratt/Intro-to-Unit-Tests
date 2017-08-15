@@ -58,4 +58,11 @@ class ViewControllerTests: XCTestCase {
         XCTAssertEqual(sut.getLessonCoinAmount(coursePrice: price), coinsEarned)
     }
     
+    func test_fibonacci_performance() {
+        let limit = 4000000
+        self.measure {
+            let _ = self.sut.sumEvenValuedNumbersFibonacciSequence(limit: limit)
+        }
+    }
+    
 }
