@@ -20,4 +20,9 @@ class PersonTests: XCTestCase {
         XCTAssertEqual(person.name, "John Smith")
     }
     
+    func test_init_shouldTakeHairColor() {
+        let person = Person(name: "Jacob Luetzow", hairColor: "Brown")
+        XCTAssertEqual(person.hairColor, "Brown")
+    }
+    
 }
